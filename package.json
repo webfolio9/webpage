@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webfolio9/webpage"
+    "url": "https://webfolio9.github.io/webpage/"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
-  "homepage": "https://github.com/webfolio9/webpage",
+  "homepage": "https://webfolio9.github.io/webpage/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0",

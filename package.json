@@ -1,5 +1,6 @@
 {
   "name": "simplefolio",
+  "homepage":"https://webfolio9.github.io/webpage",
   "version": "1.0.1",
   "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -7,6 +8,8 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "gh-pages-build": "parcel build --public-url ./"
   },
   "repository": {
@@ -28,6 +31,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
+    "gh-pages": "^6.1.1",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
     "react-router-dom": "^6.23.1",

@@ -1,17 +1,17 @@
 {
   "name": "simplefolio",
   "version": "1.0.1",
-  "private": "true",
+  "private": true,
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "gh-pages-build": "parcel build --public-url ."
+    "gh-pages-build": "parcel build --public-url ./"
   },
   "repository": {
     "type": "git",
-    "url": "https://webfolio9.github.io/webpage/"
+    "url": "https://github.com/webfolio9/webpage.git"
   },
   "keywords": [],
   "author": "Jacobo Martinez",

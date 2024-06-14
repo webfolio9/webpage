@@ -1,20 +1,21 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import { Helmet } from "react-helmet";
+import App from "./App"; // Assuming you have an App component
 import initScrollReveal from "./scripts/scrollReveal";
 import initTiltEffect from "./scripts/tiltAnimation";
 import { targetElements, defaultProps } from "./data/scrollRevealConfig";
-import React, { useEffect } from 'react';
 
 initScrollReveal(targetElements, defaultProps);
 initTiltEffect();
 
+const Index = () => (
+  <>
+    <Helmet>
+      <title>Fernanda Gontijo</title>
+    </Helmet>
+    <App />
+  </>
+);
 
-function App() {
-  useEffect(() => {
-    document.title = "Fernanda Gontijo"; // Set the document title here
-  }, []);
-
-  return (
-    <div>
-      <!-- Your component code here -->
-    </div>
-  );
-}
+ReactDOM.render(<Index />, document.getElementById("root"));
